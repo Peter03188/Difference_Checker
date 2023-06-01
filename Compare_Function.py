@@ -11,6 +11,6 @@ def compare(screen_type, device_type):
 
         second_image = os.path.join(f'{test_path}{device_type}/{screen_type}/{image_list_test[i]}')
 
-        comparison_output = f'{result_path}{device_type}/{i}.png'
+        comparison_output = f'{result_path}{device_type}/{i}-{screen_type}.png'
 
         comparison(first_image, second_image, comparison_output, device_type)

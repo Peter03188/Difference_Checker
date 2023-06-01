@@ -6,7 +6,7 @@ if __name__ == "__main__":
     compare("HAC", "iPhone_14")
 
 # All Screens
-if __name__ == "__main__":
-    for screen in screen_type:
-        compare(screen_type, "iPhone_14")
+# if __name__ == "__main__":
+#     for screen in screen_type:
+#         compare(screen_type, "iPhone_14")
 
